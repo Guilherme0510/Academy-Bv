@@ -1,0 +1,66 @@
+.cursos-home{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-cursos{
+    height: auto;
+    text-align: center;
+}
+
+.box-cursos-img1{
+    background-image: url(../../../public/img/img-curso1.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.85;
+    border-radius: 25px;
+}
+
+.box-cursos-img2{
+    background-image: url(../../../public/img/img-curso2.jpg);
+    height: 350px;
+    background-size: cover;
+    opacity: 0.85;
+    border-radius: 25px;
+    background-position: center;
+}
+
+.box-cursos-info,
+.box-cursos-info p{
+    margin-top: 25px;
+}
+
+.link-mais{
+    background-color: #FFB6C1;
+    padding: 10px 20px;
+    color: #464444;
+    transition: all .5s ease-in-out;
+    margin-top: 15px;
+}
+
+.link-mais:hover{
+    background-color: #A52A2A;
+    color: #fff;
+    scale: 1.11;
+}
+
+.linha{
+    position: absolute;
+    z-index: -9999;
+    top: -100%;
+}
+
+.linha img{
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 992px) {
+    .linha{
+        top: 0;
+    }
+    .linha img{
+        width: 100%;
+    }
+}

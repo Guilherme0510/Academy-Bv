@@ -1,0 +1,51 @@
+.linha-branca{
+    height: 200px;
+    width: 100%;
+    margin-top: 75px;
+    background-color: #fff;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.sobre{
+    border: 5px double #b17780; 
+    margin-top: -30px;
+    border-radius: 25px;
+    height: auto;
+    background: linear-gradient(110deg, #f6cece, #ffe2e2 80%);
+    transition: all .8s ease-in-out;
+}
+
+.sobre:hover{
+    transform:scale(1.05);
+}
+
+.titulo-caixa{
+    margin-top: 50px;
+}
+.dados-sobre {
+    display: flex;
+    align-items: center;
+}
+
+.img-sobre {
+    position: relative;   
+}
+
+.img-sobre1 {
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 25px;    
+}
+
+.text-sobre {
+    flex: 1;
+    padding-left: 50px;
+}
+
+@media screen and (max-width:992px) {
+    .text-sobre{
+        padding-left: 100px;
+    }
+}
